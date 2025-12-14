@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The objective of this project is to apply advanced supervised learning techniques (Regression) to predict the numerical severity of social media addiction (Addicted_Score) among a student demographic. The work focuses on constructing a highly accurate predictive model and subsequently performing rigorous feature analysis to determine the factors most strongly correlated with higher addiction scores.
+The objective of this project is to apply advanced supervised learning techniques (Regression) to predict the numerical severity of social media addiction (`Addicted_Score`) among a student demographic. The work focuses on constructing a highly accurate predictive model and subsequently performing rigorous feature analysis to determine the factors most strongly correlated with higher addiction scores.
 
 ## Methodology and Technical Execution
 
@@ -22,16 +22,16 @@ The regression analysis yielded a robust predictive model, leading to several sp
 
 ### Defining Feature Correlation
 
-A deeper inspection of the feature importance revealed a near perfect inverse correlation (0.9451) between the $\text{Mental\_Health\_Score}$ and the $\text{Addicted\_Score}$.
+A deeper inspection of the feature importance revealed a near perfect inverse correlation (0.9451) between the `Mental_Health_Score` and the `Addicted_Score`.
 
-**Implication:** Within this specific dataset, the predictive model is recognizing that the $\text{Addicted\_Score}$ is heavily, if not mathematically, derived from, the $\text{Mental\_Health\_Score}$. This signifies that Mental Health Score is the key defining feature of the addiction severity metric itself.
+**Implication:** Within this specific dataset, the predictive model is recognizing that the `Addicted_Score` is heavily, if not mathematically, derived from, the `Mental_Health_Score`. This signifies that `Mental_Health_Score` is the key defining feature of the addiction severity metric itself.
 
 ### Secondary Influencers
 
 While the score is dominated by the mental health component, the model identified secondary factors with measurable, though lower, predictive importance. These include:
 
-* $\text{Conflicts\_Over\_Social\_Media}$
-* $\text{Usage\_to\_Sleep\_Ratio}$
+* `Conflicts_Over_Social_Media`
+* `Usage_to_Sleep_Ratio`
 
 ### Model Reliability
 
@@ -43,7 +43,7 @@ The primary implication is that any intervention based solely on the current Add
 
 To derive new, actionable insights independent of this mental health baseline, future analyses should be structured to:
 
-1.  Explore the relationship between the secondary factors and the addiction score's **residual variance** (the part of the score not explained by the $\text{Mental\_Health\_Score}$).
+1.  Explore the relationship between the secondary factors and the addiction score's **residual variance** (the part of the score not explained by the `Mental_Health_Score`).
 2.  Develop separate predictive models specifically focused on isolating the effect of usage habits on self reported well being.
 
 ## Project Setup
