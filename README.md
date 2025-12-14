@@ -1,6 +1,3 @@
-# Social-Media-Addiction-ML-Regression-Prediction
-Supervised regression analysis using Python on student data to predict social media addiction severity and identify key contributing factors.
-
 # Social Media Addiction Severity Prediction (Supervised Regression)
 
 ## Project Overview
@@ -38,7 +35,7 @@ While the score is dominated by the mental health component, the model identifie
 
 ### Model Reliability
 
-The **Residual Plot** analysis confirmed the absence of any systematic pattern in the errors, thus validating the overall reliability and suitability of the regression model across the entire score range.
+The **Residual Plot** analysis confirmed the absence of any systematic pattern in the errors, thus validating the overall reliability and suitability of the regression model across the score range.
 
 ## Future Research and Actionable Insights
 
